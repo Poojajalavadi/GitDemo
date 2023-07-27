@@ -61,6 +61,9 @@ public class Standalone {
 	   driver.findElement(By.cssSelector(".btnn ")).click();
 	 String confirmmessage= driver.findElement(By.cssSelector(".hero-primary")).getText();
 	 Assert.assertTrue(confirmmessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+	 System.out.println("standalone validation done");
+		System.out.println("standalone validation passed");
+		System.out.println("standalone validation passed all");
 
 	}
 
