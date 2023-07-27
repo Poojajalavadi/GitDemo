@@ -35,6 +35,7 @@ public class ErrorValidations extends BaseTest {
 		cartpage cartobject=Productca.gotocartpage();
 		Boolean match=cartobject.verifyproductdisplay("ADIDAS");
 		Assert.assertFalse(match);
+		System.out.println("Error validation done");
 
 	}
 	
